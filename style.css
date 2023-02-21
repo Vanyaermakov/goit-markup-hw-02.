@@ -46,7 +46,12 @@ body {
   background-color: #fff;
 }
 
-.button.primary {
+.button-primary {
   background-color: #4d5ae5;
   color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
 }
